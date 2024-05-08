@@ -5,7 +5,9 @@ use std::io::{BufRead, BufReader, ErrorKind, Write};
 use std::{i32, io};
 mod array;
 mod index;
+
 mod string;
+
 fn main() {
     let mut age: i64 = 98;
     match age {
@@ -18,6 +20,7 @@ fn main() {
         _ => println!("I'm an old person"),
     }
     index::main();
+
     // array::arry();
     string::main();
 }
