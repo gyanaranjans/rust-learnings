@@ -1,5 +1,5 @@
 clang main.c -o main
-./main
+./main 
 
 clang -S -emit-llvm main.c
 
